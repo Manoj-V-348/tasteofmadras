@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.25s ease-in-out;
+}
+div > img{
+  width: 100%;
+}
+.hover--effect:hover{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.italic{
+  font-style: italic;
+}
+.bold{
+  font-weight: 700;
+}
+.mild--text{
+  opacity: 0.6;
+}
+.capital--text{
+  text-transform: uppercase;
+}
+.page--wrapper{
+  padding-top: 10dvh;
+}
+.colorchange--text--effect:hover{
+  color: rgb(176, 6, 6);
+}
+.horizontal--flex{
+  display: flex;
+  flex-direction: row;
+}
+.vertical--flex{
+  display: flex;
+  flex-direction: column;
+}
+.image--hover:hover{
+  transform: rotate(12deg);
+  scale: 1.02;
+  border-radius: 10px;
+  -webkit-box-shadow: -7px 6px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: -7px 6px 5px 0px rgba(0,0,0,0.5);
+box-shadow: -7px 6px 5px 0px rgba(0,0,0,0.5);
+}

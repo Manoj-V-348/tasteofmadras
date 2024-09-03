@@ -1,0 +1,96 @@
+.home--wrapper{
+    height: auto;
+    background-color: rgb(242, 65, 65);
+    color: white;
+    padding: 10%;
+    gap: 15px;
+}
+.top--text--home{
+    align-items: center;
+    justify-content: space-around;
+}
+.grid--image--gallery{
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(6, 100px);
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    
+}
+.chef--amma{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.kolambu{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.main--cook{
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-column-start: 4;
+    grid-column-end: -1;
+}
+.book--now{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: -1;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50%;
+}
+.highlight--text{
+    color: white;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    font-size: 64px;
+    align-self: center;
+    justify-self: center;
+}
+.copyright{
+    grid-row-start: 3;
+    grid-column-start: 3;
+    text-align: right;
+}
+.globe{
+    width: 20px;
+}
+.bottom--home--carousel{
+    align-items: center;
+    justify-content: space-around;
+}
+.zomato, .swiggy{
+    padding: 8px;
+    background-color: white;
+    color: red;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.swiggy{
+    color: orange;
+    background-color: black;
+}
+.delivery--partners--logo{
+    gap: 10px;
+}
+.locations{
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.zomato:hover, .swiggy:hover{
+    scale: 1.1;
+    cursor: pointer;
+}

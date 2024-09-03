@@ -1,0 +1,26 @@
+.navbar--main{
+    position: fixed;
+    width: 100%;
+    padding: 10px 5% 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10dvh;
+    background-color: white;
+}
+.sidebar{
+    padding: 15px 30px;
+    gap: 10px;
+    background-color: white;
+    color: black;
+    position: absolute;
+}
+.link--text{
+    font-size: 20px;
+}
+.cross--container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
